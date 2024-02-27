@@ -1,0 +1,200 @@
+body{
+ 
+ background: url(tree2.jpg) no-repeat ;
+ width: fit-content;
+ height:400px;
+ 
+}
+header{
+  font-family: sans-serif;
+}
+
+.page-name{
+    display: flex;
+}
+.page-name img{
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+.page-name h1{
+  color: rgb(231, 104, 81);
+  position: relative;
+  top: -10px;
+}
+.link ol{
+  display: flex;
+  position: relative;
+  top: -75px;
+  left: 170px;
+}
+.link ol li{
+  list-style: none;
+  margin-right: 40px;
+
+}
+.link ol li a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  
+}
+.search{
+  position: relative;
+  left: 750px;
+  top: -115px;
+}
+.search input{
+  width: 215px;
+  height: 25px;
+  border-radius:5px 5px 5px 5px ;
+  border: 2px solid rgb(231, 104, 81);
+  background: transparent;
+  color: white;
+
+}
+.search input:hover{
+  transform: scale(1.02);
+  border:2px solid rgb(231, 104, 81);
+}
+
+.btn{
+  border: none;
+  width:80px ;
+  height: 30px;
+  position: relative;
+  left: -81px;
+  top: 0px;
+  border-radius: 0px 5px 5px 0px;
+   background-color:rgb(231, 104, 81) ;
+   color: white;
+}
+.first_page{
+  width: 350px;
+  margin-left: 100px;
+  position: relative;
+  top: -70px;
+  
+}
+.text h4{
+  color: white;
+  font-size: 45px;
+}
+.text h3{
+  color: white;
+  font-size: 45px;
+  position: relative;
+  top: -80px;
+  font-weight: bolder;
+}
+.text h2{
+  color: rgb(231, 104, 81);
+  font-size: 55px;
+  position: relative;
+  top: -50px;
+}
+.text p{
+  color: white;
+  position: relative;
+  top: -120px;
+}
+.btn2{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(231, 104, 81);
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  top: -120px;
+  cursor: pointer;
+}
+.btn2:hover{
+  transform: scale(0.95);
+  background-color: rgb(207, 70, 45);
+}
+.for_join.activeLog{
+  position: relative;
+    left: 720px;
+    transition: 3s;
+}
+.for_join{
+  background: black;
+  width: 250px;
+  height: 400px;
+  position: relative;
+  top: -500px;
+  left: 1020px;
+color: white;
+text-align: center;
+border-radius: 5px;
+letter-spacing: 0.1px;
+}
+.log_here{
+  width: 220px;
+  height: 30px;
+  background-color: white;
+ position: relative;
+ top: 15px;
+ left: 18px;
+ border-radius: 5px;
+
+}
+.log_here h3{
+  position: relative;
+  top: 5px;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: rgb(207, 70, 45);
+  text-align: center;
+}
+.for_information{
+  margin-top: 50px;
+  
+}
+.for_information input{
+  width: 220px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid tomato;
+  
+  width:220px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+   
+}
+.btn3{
+  width: 220px;
+  height: 30px;
+  border: none;
+  background-color: rgb(231, 104, 81);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn3:hover{
+  transform: scale(0.95);
+  background-color: rgb(207, 70, 45);
+}
+
+.for_join p span{
+  color: rgb(231, 104, 81);
+  margin-right: 3px;
+}
+.for_join h6{
+  font-size: 14px;
+  padding-top: -20px;
+}
+
+/*Mobile view*/
+/* @media(max-width:650px){
+  body{
+    width: 50px;
+    height: 300px;
+  }
+} */
